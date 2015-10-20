@@ -12,7 +12,7 @@
 
 @property (nonatomic, readwrite) CGFloat   value;
 @property (nonatomic, readwrite) UIColor  *color;
-@property (nonatomic, readwrite) NSString *description;
+@property (nonatomic, readwrite) NSString *desc;
 
 @end
 
@@ -31,7 +31,7 @@
                             color:(UIColor*)color
                        description:(NSString *)description{
 	PNPieChartDataItem *item = [PNPieChartDataItem dataItemWithValue:value color:color];
-	item.description = description;
+	item.desc = description;
 	return item;
 }
 
