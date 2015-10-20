@@ -123,7 +123,7 @@
     
 	_currentTotal += currentDataItem.value;
 	
-    NSString *titleText = currentDataItem.description;
+    NSString *titleText = currentDataItem.desc;
     if(!titleText){
         titleText = [NSString stringWithFormat:@"%.0f%%",currentDataItem.value/ _total * 100];
     }
