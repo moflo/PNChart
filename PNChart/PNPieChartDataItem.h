@@ -19,6 +19,6 @@
 
 @property (nonatomic, readonly) CGFloat   value;
 @property (nonatomic, readonly) UIColor  *color;
-@property (nonatomic, readonly) NSString *description;
+@property (nonatomic, readonly) NSString *desc;
 
 @end
